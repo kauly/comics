@@ -1,25 +1,24 @@
-# Emotion Example
+# Comics
 
-Extract and inline critical css with
-[@emotion/css](https://github.com/emotion-js/emotion/tree/master/packages/css),
-[@emotion/server](https://github.com/emotion-js/emotion/tree/master/packages/server),
-[@emotion/react](https://github.com/emotion-js/emotion/tree/master/packages/react),
-and [@emotion/styled](https://github.com/emotion-js/emotion/tree/master/packages/styled).
+App that fetch heros from the marvel api.
 
-## Deploy your own
+## Project
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+This project was bootstraped with [create-next-app](https://nextjs.org/docs/api-reference/create-next-app) using the with-emotion [starter](https://github.com/vercel/next.js/tree/canary/examples/with-emotion).
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-emotion&project-name=with-emotion&repository-name=with-emotion)
+## Inspirations
 
-## How to use
+- https://codepen.io/Gthibaud/pen/MqpmXE
+- https://codepen.io/borntofrappe/pen/GeXMgm
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+## Demo
 
-```bash
-npx create-next-app --example with-emotion with-emotion-app
-# or
-yarn create next-app --example with-emotion with-emotion-app
+## Scripts
+
+```js
+    // for development
+    yarn && yarn dev
+
+    // for production
+    yarn build
 ```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
