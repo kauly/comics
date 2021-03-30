@@ -4,6 +4,7 @@ const KEYS = {
 
 export const addHero = (id: string) => {
   const cur: Array<string> = JSON.parse(localStorage.getItem(KEYS.favHeros));
+  if (!cur) return;
   localStorage.setItem(KEYS.favHeros, JSON.stringify([...cur, id]));
 };
 
